@@ -1,8 +1,11 @@
-import React from "react"
+import React, { useState, useEffect } from 'react';
 
-const sw = () => {
-    console.log("star")
-    return <div>star wars</div>
+function App() {
+  const swapi = require('swapi-node');
+
+  swapi.people({ id: 1 }).then((result) => {
+      return <div>{result}</div>;
+  });
 }
 
-export default sw 
+export default App;

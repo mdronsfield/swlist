@@ -11,6 +11,8 @@
   "dependencies": {
     "next": "13.0.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "swapi-node": "^0.7.0",
+    "swr": "^1.3.0"
   }
 }
